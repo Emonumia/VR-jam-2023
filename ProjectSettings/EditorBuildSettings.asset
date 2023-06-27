@@ -6,4 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes: []
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2e0a13b82f417544ebb383620040a0a4, type: 2}
+    Unity.XR.PICO.LivePreview.Settings: {fileID: 11400000, guid: 416dfdd338064174b8483de641da1700, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4808769560209fc49954be7b96fe1738, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 4950c52a17c60d845a7301edbbef71f2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bd474c1beb19f914383989ede38cbb33, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 402ce94847dd5ba43a7db43f18867ba2, type: 2}
