@@ -13,6 +13,7 @@ TagManager:
   - Candice Agent
   - Waypoint
   - AgentHealthBar
+  - Sensors
   layers:
   - Default
   - TransparentFX
@@ -20,9 +21,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Sensors
+  - something
+  - handles
   - 
   - 
   - 
