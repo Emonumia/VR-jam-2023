@@ -55,7 +55,7 @@ public class CarControl : MonoBehaviour
 
         //Control steering of the wheels
         float SteeringAngle = SteeringWheel.transform.rotation.eulerAngles.y;
-        Debug.Log(fLeftWheel.steerAngle);
+        //Debug.Log(fLeftWheel.steerAngle);
         fLeftWheel.steerAngle = SteeringAngle;
         fRightWheel.steerAngle = SteeringAngle;
 
