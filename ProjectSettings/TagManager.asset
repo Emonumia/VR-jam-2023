@@ -4,13 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-
-  - drivable roads
   - Enemy
   - Projectile
+  - drivable roads
   - CandiceVSFX
+  - CandiceEnvironment
+  - PlayerHealthBar
+  - Candice Agent
+  - Waypoint
   - AgentHealthBar
-
   layers:
   - Default
   - TransparentFX
@@ -18,8 +20,6 @@ TagManager:
   - 
   - Water
   - UI
-  - WhatIsGroud
-  - Player
   - 
   - 
   - 
@@ -44,6 +44,8 @@ TagManager:
   - 
   - 
   - 
+  - 
+  - no collision
   m_SortingLayers:
   - name: Default
     uniqueID: 0
