@@ -4,6 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Enemy
+  - Projectile
+  - drivable roads
+  - CandiceVSFX
+  - CandiceEnvironment
+  - PlayerHealthBar
+  - Candice Agent
+  - Waypoint
+  - AgentHealthBar
   - Sensors
   layers:
   - Default
@@ -37,7 +46,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - no collision
   m_SortingLayers:
   - name: Default
     uniqueID: 0
