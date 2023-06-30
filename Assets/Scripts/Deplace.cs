@@ -24,8 +24,9 @@ public class Deplace : MonoBehaviour
     public GameObject sun;
     public float rotateDelay;
     bool rotate;
-    
-    
+    public GameObject player;
+
+    public Vector3 offset;
     
     
     void Awake()
@@ -34,6 +35,7 @@ public class Deplace : MonoBehaviour
 
 
         destinationsPossible = GameObject.FindGameObjectsWithTag("drivable roads");
+        player = GameObject.FindGameObjectWithTag("Player");
 
         List<GameObject> resteDestinationPossible = new List<GameObject>();
         foreach(GameObject obj in destinationsPossible)
@@ -68,6 +70,10 @@ public class Deplace : MonoBehaviour
             { trajetA = destination.transform.position; }
         }
 
+        if (Vector3.Distance(transform.position, player.transform.position) > 100)
+        {
+            transform.position = player.transform.position + offset ;
+        }
 
         //if ((transform.position.x - 0.1<= destination.transform.position.x || destination.transform.position.x <= transform.position.x+0.1) && (destination.transform.position.z-0.1<= transform.position.z || transform.position.z <= destination.transform.position.z+ 0.1))
         if (transform.position.x== destination.transform.position.x && destination.transform.position.z == transform.position.z)
