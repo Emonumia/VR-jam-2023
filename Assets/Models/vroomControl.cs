@@ -8,6 +8,7 @@ public class vroomControl : MonoBehaviour
 {
     public GameObject leftWheel;
     public GameObject rightWheel;
+    public float force=1f;
 
     public GameObject car;
     public GameObject forwRef;
@@ -43,11 +44,11 @@ public class vroomControl : MonoBehaviour
         forw = Forward();
 
         //Left
-        forceL = forw * (rotLeft-45)*1.2f;
+        forceL = forw * (rotLeft-45)*1.2f*force;
         rigid.AddForceAtPosition(forceL, leftWheel.transform.position);
         
         //Right
-        forceR = forw * (rotRight-45)*1.2f;
+        forceR = forw * (rotRight-45)*1.2f*force;
         rigid.AddForceAtPosition(forceR, rightWheel.transform.position);
 
         leftAnglePast = rotLeft;

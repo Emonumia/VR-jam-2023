@@ -43,8 +43,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - player
+  - no player
   - no collision
   m_SortingLayers:
   - name: Default
