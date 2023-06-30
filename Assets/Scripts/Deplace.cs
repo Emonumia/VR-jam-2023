@@ -24,8 +24,6 @@ public class Deplace : MonoBehaviour
     public GameObject sun;
     public float rotateDelay;
     bool rotate;
-
-
     public GameObject player;
 
     public Vector3 offset;
